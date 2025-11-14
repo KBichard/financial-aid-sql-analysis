@@ -1,11 +1,11 @@
-#Financial Aid SQL Analysis
+Financial Aid SQL Analysis
 
 This project analyzes student financial aid records using SQL to understand remaining balance trends across programs, states, and dependency types (independent vs dependent students).  
 This utilizes real data and has been cleaned and anonymized for presentation.
 
 ---
 
-##Summary  
+Summary  
 I used SQL to:
 
 - Identify missing values taken from a raw dataset  
@@ -15,7 +15,7 @@ I used SQL to:
 
 ---
 
-##Data Quality Check  
+Data Quality Check  
 This query counts:
 
 - Total number of rows  
@@ -26,7 +26,7 @@ This query counts:
 
 ---
 
-##Remaining Balance by State + Program  
+Remaining Balance by State + Program  
 This query calculates:
 
 - Number of students per state/program  
@@ -38,7 +38,7 @@ This query calculates:
 
 ---
 
-##Highest Remaining Balances by Program  
+Highest Remaining Balances by Program  
 This query sorts programs by:
 
 - Number of students  
@@ -60,7 +60,7 @@ This query compares:
 
 ---
 
-##Files Included  
+Files Included  
 
 - **FinancialAidGitHub.sql** – Contains all SQL queries  
 - **dataquality.csv** – Data quality results  
